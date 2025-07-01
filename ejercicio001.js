@@ -7,8 +7,7 @@
 //✔ género (string),
 //✔ disponible (booleano).
 
- const prompt = require('prompt-sync')();
- 
+
 
 const libros = [ //usamos esta palabra clave para declarar una constante y Libros que serian nuetsros arrays.
 
@@ -38,6 +37,8 @@ const usuarios = [ //usamos esta palabra clave para declarar la constante y Usua
     { id: 4, nombre: "Ana Martínez", email: "anamartinezbsas@gmail.com", librosPrestados: [7, 8] },
     { id: 5, nombre: "Laura Fernández", email: "laurafernandez_01@hotmail.com", librosPrestados: [9, 10] }
 ];  
+
+
 
 
 
