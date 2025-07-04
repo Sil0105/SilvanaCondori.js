@@ -1,6 +1,8 @@
 //a)Implementar una función registrarUsuario(nombre, email) que agregue un 
 // nuevo usuario al array usuarios.
 
+const prompt = require('prompt-sync')();
+
 function registrarUsuario(nombre, email) {
     const nuevoUsuario = {
         id: usuarios.length + 1, // Asignamos un nuevo ID que continue con el del ejercicio 1 
