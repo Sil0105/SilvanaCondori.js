@@ -3,6 +3,8 @@
 //✔ Año de publicación más frecuente.
 //✔ Diferencia en años entre el libro más antiguo y el más nuevo.
 
+const prompt = require('prompt-sync')();
+
 function calcularEstadisticas() {
   const años = libros.map(libro => libro.año); // Tenemos todos los años de los libros usando .map()
 
