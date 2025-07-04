@@ -7,7 +7,7 @@
 //✔ género (string),
 //✔ disponible (booleano).
 
-
+const prompt = require('prompt-sync')();
 
 const libros = [ //usamos esta palabra clave para declarar una constante y Libros que serian nuetsros arrays.
 
