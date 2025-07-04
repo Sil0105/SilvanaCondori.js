@@ -1,5 +1,6 @@
 //a) Desarrollar una función prestarLibro(idLibro, idUsuario) que marque un libro como no disponible y
 //  lo agregue a la lista de libros prestados del usuario.
+const prompt = require('prompt-sync')();
 
 function prestarLibro(idLibro, idUsuario) {
     const libro = libros.find(libro => libro.id === idLibro); // Find buscará el libro por su id.
