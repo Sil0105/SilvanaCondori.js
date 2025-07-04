@@ -2,6 +2,7 @@
 // permita interactuar con el sistema utilizando prompt().
 //El menú debe incluir opciones para todas las funcionalidades anteriores y
 //utilizar estructuras de control (if, switch, ciclos) para manejar la lógica.
+const prompt = require('prompt-sync')();
 
 function menuPrincipal() {
   let opciones;
