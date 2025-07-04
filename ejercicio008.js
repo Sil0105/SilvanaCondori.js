@@ -2,6 +2,7 @@
 //✔ Convertir todos los títulos a mayúsculas.
 //✔ Eliminar espacios en blanco al inicio y final de los nombres de autores.
 //✔ Formatear los emails de los usuarios a minúsculas.
+const prompt = require('prompt-sync')();
 
 function normalizarDatos() {
     libros.forEach(libro => {
@@ -20,3 +21,5 @@ function normalizarDatos() {
     console.log(libros);
     console.log(usuarios);
 }
+
+normalizarDatos();
