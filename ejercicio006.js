@@ -3,6 +3,8 @@
 // (no títulos que contengan números ni otros caracteres). 
 // La función debe devolver un array con los títulos de esos libros y mostrarlo en la consola.
 
+const prompt = require('prompt-sync')();
+
 function librosConPalabrasEnTitulo() {
     const librosSoloPalabras = libros.filter(libro => { // Usamos filter para recorrer todos los libros 
         
