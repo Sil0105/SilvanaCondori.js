@@ -1,5 +1,7 @@
 //a)Implementar una función agregarLibro(id, titulo, autor, anio, genero) que agregue un nuevo libro al array libros.
 
+const prompt = require('prompt-sync')();
+
 function agregarLibro(id, titulo, autor, año, genero) { // Esta función agrega un nuevo libro al array libros.
     const nuevoLibro = {
         id: 11, titulo: "Mujeres tenian que ser", autor: "Felipe Pigna",año: "2014",genero: "Historia",
