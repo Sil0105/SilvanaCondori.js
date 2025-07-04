@@ -5,6 +5,8 @@
 //✔ Cantidad de libros por género.
 //✔ Libro más antiguo y más nuevo
 
+const prompt = require('prompt-sync')();
+
 function generarReporteLibros() {
   // Total de libros.
   const totalLibros = libros.length;
